@@ -22,7 +22,7 @@ export function Cadastro() {
 
   const handleCadastro = async () => {
     try {
-      const response = await Axios.post("http://localhost:3000/auth/register", {
+      const response = await Axios.post("https://web.postman.co/workspace/My-Workspace~61c0505f-5120-4cf3-89d9-418d1e21e0a5/request/29177367-2a9af4db-c8f2-4a8a-86ec-1247d3c299ba", {
         name,
         email,
         password,
