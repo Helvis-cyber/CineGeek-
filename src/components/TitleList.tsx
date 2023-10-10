@@ -1,6 +1,7 @@
 import React, { useState, useRef } from "react";
 import Modal from "react-modal";
 import TitleForm from "./TitleForm";
+import { Title } from "../types/Title";
 
 interface TitleListProps {
   titles: Title[];
