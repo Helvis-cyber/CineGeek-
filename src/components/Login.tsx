@@ -25,7 +25,7 @@ function Login() {
 
   const handleLogin = async () => {
     try {
-      const response = await axios.post("https://web.postman.co/workspace/My-Workspace~61c0505f-5120-4cf3-89d9-418d1e21e0a5/request/29177367-b6ee1509-0dc0-4baa-8d2d-3416512d2517", {
+      const response = await axios.post("http://localhost:3000/auth/login", {
         email,
         password,
       });
