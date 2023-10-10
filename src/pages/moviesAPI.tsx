@@ -23,11 +23,11 @@ export default function MoviesAPI() {
           "https://api.themoviedb.org/3/movie/popular",
           {
             params: {
-              language: "pt-BR", // Defina o idioma para português
+              language: "pt-BR", 
             },
             headers: {
               Accept: "application/json",
-              Authorization: "process.env.API_KEY;",
+              Authorization: "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI0MzM0ZTlhNjFmZDAzNmQ5OTQyNmM3YzBlYWY0YWY3NiIsInN1YiI6IjY1MWUyNzBiNWIxMjQwMDEzYzdiZTNmOCIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.1t64N2Hvs-JyRItRFhTmVtKC_t7xYIVyjP--8v741PY",
             },
           }
         );
