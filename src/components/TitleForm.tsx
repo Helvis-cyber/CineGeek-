@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Input, Button } from "@material-tailwind/react";
 import axios from "axios";
 import mongoose from "mongoose";
+import { Title } from "../types/Title";
 interface TitleFormProps {
   onSubmit: (title: Title) => void;
   onUpdate?: (title: Title) => void;
